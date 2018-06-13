@@ -8,7 +8,7 @@ function sendAjaxReuquest(number) {
             httpRequestCount++;
             console.log(httpRequestCount);
             statusDisplay.innerHTML=  "http response count: " + httpRequestCount;
-            if (httpRequestCount === 1000){
+            if (httpRequestCount === 10000){
                 alert("recived " + number + "http response");
                 window.close();
             }
@@ -25,4 +25,4 @@ function sendMultiHttpRequest(number){
     httpRequestCount = 0;
 }
 
-sendMultiHttpRequest(1000);
+sendMultiHttpRequest(10000);
