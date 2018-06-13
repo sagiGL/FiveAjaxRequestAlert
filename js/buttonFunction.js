@@ -1,10 +1,6 @@
 var statusDisplay = document.getElementById("d1");
 var httpRequestCount = 0;
 
-function closeWindow(){
-    window.close();
-}
-
 function sendAjaxReuquest(number) {
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
@@ -14,6 +10,7 @@ function sendAjaxReuquest(number) {
             statusDisplay.innerHTML=  "http response count: " + httpRequestCount;
             if (httpRequestCount === 5){
                 alert("recived " + number + "http response");
+                window.close();
             }
         }
     };
