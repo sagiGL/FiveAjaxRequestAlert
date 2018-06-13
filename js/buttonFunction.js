@@ -1,6 +1,9 @@
 var statusDisplay = document.getElementById("d1");
 var httpRequestCount = 0;
 
+function closeWindow(){
+    window.close();
+}
 
 function sendAjaxReuquest(number) {
     var xhttp = new XMLHttpRequest();
