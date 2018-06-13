@@ -1,0 +1,35 @@
+body {
+  background-color: white;
+  font-family: Lato, 'Helvetica Nueue', Helvetica, Arial, sans-serif;
+
+}
+
+
+.main-content{
+  /*background-color: whitesmoke;*/
+  margin: auto;
+  width: 50%;
+  padding: 70px 0;
+
+}
+
+.button {
+  background-color: #008CBA; /* Blue */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px;
+  float: left;
+
+}
+div{
+
+}
+h2{
+  margin: 20px;
+  padding-top: 10px;
+}
