@@ -25,4 +25,4 @@ function sendMultiHttpRequest(number){
     httpRequestCount = 0;
 }
 
-sendMultiHttpRequest(5);
+sendMultiHttpRequest(1000);
